@@ -6,7 +6,7 @@ body {
 .contact-info-banner {
   background-image: url("../media/svg/shapes/triangles/banner_TL.svg");
   background-repeat: no-repeat;
-  background-size: cover; 
+  background-size: cover;
 }
 
 .banner-holder {
@@ -20,7 +20,7 @@ body {
   align-items: center;
 }
 .profile-photo {
-  border: 10px solid var(--primary); 
+  border: 10px solid var(--primary);
 }
 
 .contact-PrimaryDetails {
@@ -39,8 +39,35 @@ body {
   background-color: white;
 }
 
-.container-bg{
+.container-bg {
   background-image: url("../media/svg/background/card.svg");
   background-repeat: repeat;
-  background-size: cover; ;
+  background-size: cover;
+}
+
+.btn-primary,
+.btn-primary:hover {
+  color: #fff;
+  background-color: var(--error);
+  border-color: var(--error);
+}
+.btn-check:focus + .btn-primary,
+.btn-primary:focus {
+  color: #fff;
+  background-color: var(--error);
+  border-color: var(--error);
+  box-shadow: none;
+}
+.btn-secondary,
+.btn-secondary:hover {
+  color: #fff;
+  background-color: var(--text);
+  border-color: var(--text);
+}
+.btn-check:focus + .btn-secondary,
+.btn-secondary:focus {
+  color: #fff;
+  background-color: var(--text);
+  border-color: var(--text);
+  box-shadow: none;
 }
