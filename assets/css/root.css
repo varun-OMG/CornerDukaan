@@ -1,0 +1,96 @@
+* {
+  /* Color Pallet */
+  --black: #000;
+  --white: #fff;
+  --primary: #e6ad9a;
+  --primary-btn: #bc956e;
+  --heading: #2b431c;
+  --text: #515151;
+  --disable: #c4c4c4;
+  --danger: #d90429;
+  --error: #ff0000;
+
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  color: var(--text);
+}
+
+*,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+label,
+input {
+  font-family: "Inter", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--heading);
+}
+
+/* Z Index */
+.zIndex-0 {
+  z-index: 0;
+}
+.zIndex-10 {
+  z-index: 10;
+}
+.zIndex-20 {
+  z-index: 20;
+}
+.zIndex-30 {
+  z-index: 30;
+}
+.zIndex-40 {
+  z-index: 40;
+}
+.zIndex-50 {
+  z-index: 50;
+}
+
+/* Borders */
+.curve-0 {
+  border-radius: 0px !important;
+}
+
+.curve-1 {
+  border-radius: 8px !important;
+}
+
+.curve-2 {
+  border-radius: 12px !important;
+}
+
+.curve-3 {
+  border-radius: 16px !important;
+}
+
+.curve-4 {
+  border-radius: 20px !important;
+}
+
+.curve-5 {
+  border-radius: 24px !important;
+}
+
+.curve-pill {
+  border-radius: 50rem !important;
+}
+
+.curve-circle {
+  border-radius: 50% !important;
+}
+
+.shadow-theme {
+  box-shadow: 0px 6px 8px rgba(87, 87, 87, 0.25);
+}

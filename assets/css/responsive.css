@@ -1,0 +1,150 @@
+/* Mobile Devices */
+@media (min-width: 20rem) {
+  /* banner */
+  .contact-info-banner {
+    height: 60vh;
+  }
+  /* Logo */
+  .cd-logo {
+    height: 50px;
+    width: 178px;
+  }
+  /* Profile Picture */
+  .profile-photo {
+    height: 164.11361694335938px;
+    width: 164.11361694335938px;
+  }
+  .profile-photo {
+    margin-bottom: 8px;
+  }
+  .sm-icons {
+    height: 40px;
+    width: 40px;
+  }
+
+  /* Social Media Icons */
+  #whatsapp img {
+    height: 20px;
+    width: 20px;
+  }
+  #message img {
+    height: 13.766504287719727px;
+    width: 15.3125px;
+  }
+  #email img {
+    height: 13.766504287719727px;
+    width: 15.3125px;
+  }
+  #url img {
+    height: 13.766504287719727px;
+    width: 15.3125px;
+  }
+  #telephone img {
+    height: 13.766504287719727px;
+    width: 15.3125px;
+  } 
+}
+
+/* Tablet Devices */
+@media (min-width: 48rem) {
+  body {
+    padding-top: 40px;
+  }
+  /* banner */
+  .contact-info-banner {
+    height: 60vh;
+  }
+  /* Logo */
+  .cd-logo {
+    height: 56px;
+    width: 196px;
+  }
+  /* Profile Picture */
+  .profile-photo {
+    height: 139.5908966064453px;
+    width: 139.5908966064453px;
+  }
+  .profile-photo {
+    margin-bottom: 28px;
+  }
+  .sm-icons {
+    height: 48px;
+    width: 48px;
+    margin-bottom: 12px;
+  }
+  .sm-icons:last-child {
+    margin-bottom: 0px;
+  }
+
+  /* Social Media Icons */
+  #whatsapp img {
+    height: 24px;
+    width: 24px;
+  }
+  #message img {
+    height: 15.220000267028809px;
+    width: 24px;
+  }
+  #email img {
+    height: 18.712526321411133px;
+    width: 24px;
+  }
+  #url img {
+    height: 21.750009536743164px;
+    width: 21.75505828857422px;
+  }
+  #telephone img {
+    height: 20.739665985107422px;
+    width: 20.690509796142578px;
+  }
+}
+
+/* Desktop Devices */
+@media (min-width: 62rem) {
+  /* banner */
+  .contact-info-banner {
+    height: 104vh;
+  }
+  /* Logo */
+  .cd-logo {
+    height: 130.9587860107422px;
+    width: 468px;
+  }
+  /* Profile Picture */
+  .profile-photo {
+    height: 339.5454406738281px;
+    width: 339.5454406738281px;
+  }
+  .profile-photo {
+    margin-bottom: 48px;
+  }
+  /* Social Media Icons */
+  .sm-icons {
+    height: 120px;
+    width: 120px;
+    margin-bottom: 48px;
+  }
+  .sm-icons:last-child {
+    margin-bottom: 0px;
+  }
+  #whatsapp img {
+    height: 47.406761169433594px;
+    width: 47.379981994628906px;
+  }
+  #message img {
+    height: 44.05281448364258px;
+    width: 49px;
+  }
+  #email img {
+    height: 49.90007019042969px;
+    width: 64px;
+  }
+  #url img {
+    height: 58.00001525878906px;
+    width: 58.013492584228516px;
+  }
+  #telephone img {
+    height: 55.30577850341797px;
+    width: 55.1746940612793px;
+  } 
+}

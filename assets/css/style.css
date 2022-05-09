@@ -1,0 +1,46 @@
+body {
+  background-image: url("../media/svg/background/bg.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.contact-info-banner {
+  background-image: url("../media/svg/shapes/triangles/banner_TL.svg");
+  background-repeat: no-repeat;
+  background-size: cover; 
+}
+
+.banner-holder {
+  background: #ffffff;
+  box-shadow: 0px 20px 36px rgba(249, 208, 195, 0.24);
+  border-radius: 0px 0px 300px 300px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.profile-photo {
+  border: 10px solid var(--primary); 
+}
+
+.contact-PrimaryDetails {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.sm-icons {
+  background-image: url("../media/svg/shapes/custom/eclipse.svg");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(223, 223, 223, 0.24);
+  box-shadow: 0px 6px 8px rgba(87, 87, 87, 0.25);
+  background-color: white;
+}
+
+.container-bg{
+  background-image: url("../media/svg/background/card.svg");
+  background-repeat: repeat;
+  background-size: cover; ;
+}
