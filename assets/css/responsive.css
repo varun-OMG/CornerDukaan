@@ -1,8 +1,8 @@
 /* Mobile Devices */
-@media (min-width: 20rem) {
+@media (min-width: 320px) {
   /* banner */
   .contact-info-banner {
-    height: 75vh;
+    height: 106vh;
   }
   /* Logo */
   .cd-logo {
@@ -17,36 +17,32 @@
   .profile-photo {
     margin-bottom: 8px;
   }
-  .sm-icons {
-    height: 80px;
-    width: 80px;
-  }
 
   /* Social Media Icons */
   #whatsapp img {
-    height: 35.56px;
-    width: 35.53px;
+    height: 60px;
+    width: 60px;
   }
   #message img {
-    height: 33.04px;
-    width: 36.75px;
+    height: 60px;
+    width: 60px;
   }
   #email img {
-    height: 42px;
-    width: 32.75px;
+    height: 60px;
+    width: 60px;
   }
   #url img {
-    height: 36px;
-    width: 36px;
+    height: 60px;
+    width: 60px;
   }
   #telephone img {
-    height: 35.25px;
-    width: 35.25px;
+    height: 60px;
+    width: 60px;
   }
 }
 
 /* Tablet Devices */
-@media (min-width: 48rem) {
+@media (min-width: 768px) {
   body {
     padding-top: 40px;
   }
@@ -68,9 +64,7 @@
     margin-bottom: 28px;
   }
   .sm-icons {
-    height: 100px;
-    width: 100px;
-    margin-bottom: 12px;
+    margin-bottom: 24px;
   }
   .sm-icons:last-child {
     margin-bottom: 0px;
@@ -78,32 +72,32 @@
 
   /* Social Media Icons */
   #whatsapp img {
-    height: 47.406761169433594px;
-    width: 47.379981994628906px;
+    height: 80px;
+    width: 80px;
   }
   #message img {
-    height: 44.05281448364258px;
-    width: 49px;
+    height: 80px;
+    width: 80px;
   }
   #email img {
-    height: 43.662559509277344px;
-    width: 56px;
+    height: 80px;
+    width: 80px;
   }
   #url img {
-    height: 48px;
-    width: 48px;
+    height: 80px;
+    width: 80px;
   }
   #telephone img {
-    height: 47px;
-    width: 47px;
+    height: 80px;
+    width: 80px;
   }
 }
 
 /* Desktop Devices */
-@media (min-width: 62rem) {
+@media (min-width: 992) {
   /* banner */
   .contact-info-banner {
-    height: 104vh;
+    height: 124vh;
   }
   /* Logo */
   .cd-logo {
@@ -117,34 +111,13 @@
   }
   .profile-photo {
     margin-bottom: 48px;
-  }
-  /* Social Media Icons */
-  .sm-icons {
-    height: 120px;
-    width: 120px;
-    margin-bottom: 48px;
-  }
-  .sm-icons:last-child {
-    margin-bottom: 0px;
-  }
-  #whatsapp img {
-    height: 47.406761169433594px;
-    width: 47.379981994628906px;
-  }
-  #message img {
-    height: 44.05281448364258px;
-    width: 49px;
-  }
-  #email img {
-    height: 43.662559509277344px;
-    width: 56px;
-  }
-  #url img {
-    height: 48px;
-    width: 48px;
-  }
-  #telephone img {
-    height: 47px;
-    width: 47px;
+  } 
+}
+
+/* Large Display */
+@media (min-width: 1400px) {
+  /* banner */
+  .contact-info-banner {
+    height: 104vh;
   }
 }

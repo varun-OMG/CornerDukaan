@@ -71,3 +71,25 @@ body {
   border-color: var(--text);
   box-shadow: none;
 }
+/* Carousel */
+.carousel-indicators [data-bs-target] {
+  width: 14px;
+  height: 14px;
+  background-color: #c4c4c4;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 1px solid transparent;
+}
+.carousel-indicators .active {
+  background: #e6ad9a;
+}
+.carousel-prev {
+  background-image: url("../media/svg/icons/social-media/carousel-prev.svg");
+  width: 30px !important;
+  height: 30px !important;
+}
+.carousel-next {
+  background-image: url("../media/svg/icons/social-media/carousel-next.svg");
+  width: 30px !important;
+  height: 30px !important;
+}
