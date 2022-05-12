@@ -4,9 +4,7 @@ body {
   background-size: cover;
 }
 .contact-info-banner {
-  background-image: url("../media/svg/shapes/triangles/banner_TL.svg");
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-color: var(--primary);
 }
 
 .banner-holder {

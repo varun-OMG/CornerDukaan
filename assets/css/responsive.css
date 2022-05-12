@@ -1,9 +1,5 @@
 /* Mobile Devices */
-@media (min-width: 320px) {
-  /* banner */
-  .contact-info-banner {
-    height: 106vh;
-  }
+@media (min-width: 320px) { 
   /* Logo */
   .cd-logo {
     height: 50px;
@@ -45,11 +41,7 @@
 @media (min-width: 768px) {
   body {
     padding-top: 40px;
-  }
-  /* banner */
-  .contact-info-banner {
-    height: 70vh;
-  }
+  } 
   /* Logo */
   .cd-logo {
     height: 56px;
@@ -94,11 +86,7 @@
 }
 
 /* Desktop Devices */
-@media (min-width: 992) {
-  /* banner */
-  .contact-info-banner {
-    height: 124vh;
-  }
+@media (min-width: 992) { 
   /* Logo */
   .cd-logo {
     height: 130.9587860107422px;
@@ -112,12 +100,4 @@
   .profile-photo {
     margin-bottom: 48px;
   } 
-}
-
-/* Large Display */
-@media (min-width: 1400px) {
-  /* banner */
-  .contact-info-banner {
-    height: 104vh;
-  }
-}
+} 
