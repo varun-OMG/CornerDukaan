@@ -46,14 +46,14 @@ body {
 .btn-primary,
 .btn-primary:hover {
   color: #fff;
-  background-color: var(--error);
-  border-color: var(--error);
+  background-color: var(--base-green);
+  border-color: var(--base-green);
 }
 .btn-check:focus + .btn-primary,
 .btn-primary:focus {
   color: #fff;
-  background-color: var(--error);
-  border-color: var(--error);
+  background-color: var(--base-green);
+  border-color: var(--base-green);
   box-shadow: none;
 }
 .btn-secondary,
